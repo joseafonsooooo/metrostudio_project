@@ -1,0 +1,1381 @@
+
+
+/* Mozilla based browsers */
+::-moz-selection {
+       background-color: #b12e90;
+       color: white;
+}
+
+/* Works in Safari */
+::selection {
+       background-color: #b12e90;
+       color: white;
+}
+
+html
+{
+	background-color: black;
+	
+}
+
+
+.parallax-window {
+    background: transparent;
+}
+
+body
+{
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, li 
+{
+	font-family: 'Armata', sans-serif;
+	color: white;
+}
+
+p
+{
+	font-size:16px;	
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2
+{
+	color: #b22e92;	
+}
+
+#menu_options
+{
+	position:fixed;
+	top:0;
+	width:100%;
+	background-color:black;	
+	z-index:102;
+	
+}
+
+#menu_options ul
+{
+	text-align:center;
+	list-style:none;
+	padding:0;
+}
+
+#responsive-menu-li1, #responsive-menu-li2, #responsive-menu-li3, #responsive-menu-li4, #responsive-menu-li5, #responsive-menu-li6, #responsive-menu-li7
+{
+	margin-top:5%;	
+	cursor:pointer;
+}
+
+#responsive-menu-li1 a, #responsive-menu-li2 a, #responsive-menu-li3 a, #responsive-menu-li4 a, #responsive-menu-li5 a, #responsive-menu-li6 a, #responsive-menu-li7 a
+{
+	color:white;
+	text-decoration:none;	
+}
+
+#responsive-menu-li1
+{
+	margin-top:10%;
+}
+
+#responsive-menu-li7
+{
+	margin-bottom:5%;
+}
+
+#menu_responsive
+{
+	position:fixed;
+	display:none;
+	cursor:pointer;	
+	z-index:102;
+}
+
+#header_div 
+{
+	width: 50%;
+	padding: 3.5vh 0;
+	padding-left: 25%;
+	padding-right: 25%;
+	background: black;
+	position: fixed;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	z-index: 100;
+}
+
+#header-menu 
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+#header-menu-li1
+{
+    float: left;
+    position: relative;
+    width: 12.5%;
+}
+
+#header-menu-li2
+{float: left;position: relative;width: 13.5%;}
+
+#header-menu-li3
+{float: left;position: relative;width: 13.7%;}
+
+#header-menu-li4
+{float: left;position: relative;width: 18.4%;}
+
+#header-menu-li5
+{float: left;position: relative;width: 16.2%;}
+
+#header-menu-li6
+{float: left;position: relative;width: 18.7%;}
+
+#header-menu-li7
+{float: left;position: relative;width: 7%;}
+
+
+
+#header-menu li a
+{
+	text-decoration: none;
+	color: white;
+	/* text-align: center; */
+}
+
+#header-menu li a:hover
+{
+	color: #b22e92;
+}
+
+.hmopt
+{/* float: left; *//* position: relative; *//* box-sizing: border-box; *//* padding: 2.5vh 1.9%; */}
+
+.backtostart
+{
+	position:fixed;
+	z-index: 10000000000;
+	right: -126px;
+	bottom:0;
+	width: 180px;
+	background: #000000;
+	transition: ease right 0.5s, ease background 0.5s;
+	margin-bottom: 0;
+	border-radius: 20px 0 0 0;
+	display: none!important;
+}
+
+.backtostart:hover
+{
+	right: 0px;
+	background:#b12e90;
+	
+}
+
+.backtostart img
+{
+	width: 35px;
+	position: relative;
+	float: left;
+	margin: 10px;
+}
+
+.backtostart p
+{
+	margin: 16px 0 10px 0;
+	position: relative;
+	float: left;
+	color: white;
+	font-weight: bolder;
+}
+
+
+#logo_div
+{
+	width: 40%;
+	padding: 0 30%;
+	padding-top: 42vh;
+	padding-bottom: 58vh;
+	height: 0px;	
+}
+
+#logo-metro
+{
+	width: 100%;	
+}
+
+#logo-metro-words
+{
+	width: 22%;	
+	float: right;
+}
+
+/*STUDIO*/
+#studio_div
+{
+	width: 100%;
+	background-color: black;
+	border-top: 1px solid rgba(255, 255, 255, 0.1);	
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);	
+}
+
+#studio-content
+{
+	width: 50%;
+	padding: 0 25%;
+	text-align: center;	
+}
+
+#studio-title
+{
+	padding-top:80px;
+	padding-bottom: 40px;	
+}
+
+#studio-text
+{
+	padding-bottom: 120px;	
+}
+
+#studio-text p span
+{
+	
+}
+
+#studio-galeria_div
+{
+	width:100%;	
+	position: relative;
+}
+
+#galeria-img1, #galeria-img2, #galeria-img3, #galeria-img4, #galeria-img5, #galeria-img6, #galeria-img7, #galeria-img8, #galeria-img9, #galeria-img10, #galeria-img11, #galeria-img12
+{
+	width: 25%;
+	float: left;
+	position: relative;
+}
+
+#galeria-img1 img, #galeria-img2 img, #galeria-img3 img, #galeria-img4 img, #galeria-img5 img, #galeria-img6 img, #galeria-img7 img, #galeria-img8 img, #galeria-img9 img, #galeria-img10 img, #galeria-img11 img, #galeria-img12 img
+{
+	width: 100%;
+	float: left;
+	position: relative;
+}
+
+
+/*TEAM*/
+#team_div
+{
+	position: relative;
+	float:left;
+	width:50%;
+	padding-left:25%;
+	padding-right:25%;
+	border-top: 1px solid rgba(255, 255, 255, 0.1);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	background:black;
+}
+
+#team-title
+{
+	text-align:center;	
+	position: relative;
+	
+}
+
+#team-title h1
+{
+	padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+#team-person1, #team-person2, #team-person3, #team-person4, #team-person5, #team-person6, #team-person7, #team-person8
+{
+	width: 100%;
+    position: relative;
+    float: left;
+    padding-bottom: 60px;
+}
+
+#team-person1 img, #team-person2 img, #team-person3 img, #team-person4 img, #team-person5 img, #team-person6 img, #team-person7 img, #team-person8 img
+{
+	width: 20%;
+    position: relative;
+    float: left;
+    margin-right: 5%;
+    border-radius: 100%;
+    border: 2px solid rgb(178, 46, 146);
+}
+
+#team-person1 h2, #team-person2 h2, #team-person3 h2, #team-person4 h2, #team-person5 h2, #team-person6 h2, #team-person7 h2, #team-person8 h2
+{
+	margin:0;
+	position: relative;
+	float: left;
+	width:74%;
+}
+
+#team-person1 p, #team-person2 p, #team-person3 p, #team-person4 p, #team-person5 p, #team-person6 p, #team-person7 p, #team-person8 p
+{
+	margin:0;
+	position: relative;
+	float: left;
+	width: 74%;
+}
+
+#team-person8
+{
+	padding-bottom:120px;
+}
+
+/*EDITS*/
+#edit_div
+{
+	position: relative;
+    float: left;
+    width: 100%;
+    background-color: white;
+}
+
+#edit-title
+{
+	text-align: center;
+    position: relative;
+}
+
+#edit-title h1
+{
+	padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+
+#edit-images-title-together a, #edit-images-title-vogue a, #edit-images-title-mlc a, #edit-images-title-miami a, #edit-images-title-white a, #edit-images-title-amor a, #edit-images-title-suburban a, #edit-images-title-blues a, #edit-images-title-80 a
+{ 
+	text-decoration: none;
+}
+
+	/*Together*/
+#edit-images1
+{
+	position:relative;
+}
+	
+#edit-images-title-together
+{
+	position: relative;
+    text-align: center;
+    margin: 0;
+    padding:0;
+    border-bottom: 1px solid #b22e92;
+}
+
+#edit-images-title-together:hover
+{
+	background-color: #b22e92;
+}
+
+#edit-images-title-together h2
+{
+	margin: 0;
+	padding: 15px 0;
+}
+
+#edit-images-title-together h2:hover
+{
+	color:white;
+	cursor:pointer;
+}
+
+#edit-images-together
+{
+	position:relative;
+	float:left;
+	width:100%;
+	border-bottom: 1px solid #b22e92;
+	width:100%;
+}
+
+#edit-together-img1, #edit-together-img2, #edit-together-img3, #edit-together-img4, #edit-together-img5, #edit-together-img6, #edit-together-img7, #edit-together-img8
+{
+	position:relative;
+	float:left;
+	width:25%;	
+}
+
+#edit-together-img1 img, #edit-together-img2 img, #edit-together-img3 img, #edit-together-img4 img, #edit-together-img5 img, #edit-together-img6 img, #edit-together-img7 img, #edit-together-img8 img
+{
+	width:100%;
+	position:relative;
+	float:left;
+}
+
+	/*Vogue*/
+#edit-images2
+{
+	position:relative;
+	float:left;
+	width:100%;
+}
+
+#edit-images-title-vogue
+{
+	position: relative;
+    text-align: center;
+    margin: 0;
+    padding:0;
+    border-bottom: 1px solid #b22e92;
+	width:100%;
+}
+
+#edit-images-title-vogue:hover
+{
+	background-color: #b22e92;
+}
+
+#edit-images-title-vogue h2
+{
+	margin: 0;
+	padding: 15px 0;
+}
+
+#edit-images-title-vogue h2:hover
+{
+	color:white;
+	cursor:pointer;
+}
+
+#edit-images-vogue
+{
+	position:relative;
+	float:left;
+	width:100%;
+	border-bottom: 1px solid #b22e92;
+}
+
+#edit-vogue-img1, #edit-vogue-img2, #edit-vogue-img3, #edit-vogue-img4, #edit-vogue-img5, #edit-vogue-img6, #edit-vogue-img7, #edit-vogue-img8, #edit-vogue-img9, #edit-vogue-img10
+{
+	position:relative;
+	float:left;
+	width:20%;	
+}
+
+#edit-vogue-img1 img, #edit-vogue-img2 img, #edit-vogue-img3 img, #edit-vogue-img4 img, #edit-vogue-img5 img, #edit-vogue-img6 img, #edit-vogue-img7 img, #edit-vogue-img8 img, #edit-vogue-img9 img, #edit-vogue-img10 img
+{
+	width:100%;
+	position:relative;
+	float:left;
+}
+
+	/*MartaLeiteCastro*/
+#edit-images3
+{
+	position:relative;
+	float:left;
+	width:100%;
+}
+
+#edit-images-title-mlc
+{
+	position: relative;
+    text-align: center;
+    margin: 0;
+    padding:0;
+    border-bottom: 1px solid #b22e92;
+	width:100%;
+}
+
+#edit-images-title-mlc:hover
+{
+	background-color: #b22e92;
+}
+
+#edit-images-title-mlc h2
+{
+	margin: 0;
+	padding: 15px 0;
+}
+
+#edit-images-title-mlc h2:hover
+{
+	color:white;
+	cursor:pointer;
+}
+
+#edit-images-mlc
+{
+	position: relative;
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #b22e92;
+    background-color: black;
+    /*
+	padding-left: 25%;
+    padding-right: 25%;
+	*/
+}
+
+#edit-mlc-img1, #edit-mlc-img2, #edit-mlc-img3, #edit-mlc-img4
+{
+	position:relative;
+	float:left;
+	width:25%;	
+}
+
+#edit-mlc-img1 img, #edit-mlc-img2 img, #edit-mlc-img3 img, #edit-mlc-img4 img
+{
+	width:100%;
+	position:relative;
+	float:left;
+}
+
+	/*MiamiVaise*/
+#edit-images4
+{
+	position:relative;
+	float:left;
+	width:100%;
+}
+
+#edit-images-title-miami
+{
+	position: relative;
+    text-align: center;
+    margin: 0;
+    padding:0;
+    border-bottom: 1px solid #b22e92;
+	width:100%;
+}
+
+#edit-images-title-miami:hover
+{
+	background-color: #b22e92;
+}
+
+#edit-images-title-miami h2
+{
+	margin: 0;
+	padding: 15px 0;
+}
+
+#edit-images-title-miami h2:hover
+{
+	color:white;
+	cursor:pointer;
+}
+
+#edit-images-miami
+{
+	position:relative;
+	float:left;
+	width:100%;
+	border-bottom: 1px solid #b22e92;
+}
+
+#edit-miami-img1, #edit-miami-img2, #edit-miami-img3, #edit-miami-img4, #edit-miami-img5, #edit-miami-img6, #edit-miami-img7, #edit-miami-img8, #edit-miami-img9, #edit-miami-img10
+{
+	position:relative;
+	float:left;
+	width:20%;	
+}
+
+#edit-miami-img1 img, #edit-miami-img2 img, #edit-miami-img3 img, #edit-miami-img4 img, #edit-miami-img5 img, #edit-miami-img6 img, #edit-miami-img7 img, #edit-miami-img8 img, #edit-miami-img9 img, #edit-miami-img10 img
+{
+	width:100%;
+	position:relative;
+	float:left;
+}
+
+	/*WhiteStripes*/
+#edit-images5
+{
+	position:relative;
+	float:left;
+	width:100%;
+}
+
+#edit-images-title-white
+{
+	position: relative;
+    text-align: center;
+    margin: 0;
+    padding:0;
+    border-bottom: 1px solid #b22e92;
+	width:100%;
+}
+
+#edit-images-title-white:hover
+{
+	background-color: #b22e92;
+}
+
+#edit-images-title-white h2
+{
+	margin: 0;
+	padding: 15px 0;
+}
+
+#edit-images-title-white h2:hover
+{
+	color:white;
+	cursor:pointer;
+}
+
+#edit-images-white
+{
+	position:relative;
+	float:left;
+	width:100%;
+	border-bottom: 1px solid #b22e92;
+	background-color: black;
+}
+
+#edit-white-img1, #edit-white-img2, #edit-white-img3, #edit-white-img4, #edit-white-img5, #edit-white-img6, #edit-white-img7, #edit-white-img8, #edit-white-img9, #edit-white-img10, #edit-white-img11
+{
+	position:relative;
+	float:left;
+	width:25%;	
+}
+
+#edit-white-img1 img, #edit-white-img2 img, #edit-white-img3 img, #edit-white-img4 img, #edit-white-img5 img, #edit-white-img6 img, #edit-white-img7 img, #edit-white-img8 img, #edit-white-img9 img, #edit-white-img10 img, #edit-white-img11 img
+{
+	width:100%;
+	position:relative;
+	float:left;
+}
+
+
+	/*AmorEletro*/
+#edit-images6
+{
+	position:relative;
+	float:left;
+	width:100%;
+}
+
+#edit-images-title-amor
+{
+	position: relative;
+    text-align: center;
+    margin: 0;
+    padding:0;
+    border-bottom: 1px solid #b22e92;
+	width:100%;
+}
+
+#edit-images-title-amor:hover
+{
+	background-color: #b22e92;
+}
+
+#edit-images-title-amor h2
+{
+	margin: 0;
+	padding: 15px 0;
+}
+
+#edit-images-title-amor h2:hover
+{
+	color:white;
+	cursor:pointer;
+}
+
+#edit-images-amor
+{
+	position:relative;
+	float:left;
+	width:100%;
+	border-bottom: 1px solid #b22e92;
+	background-color: black;
+}
+
+#edit-amor-img1, #edit-amor-img2, #edit-amor-img3, #edit-amor-img4, #edit-amor-img5
+{
+	position:relative;
+	float:left;
+	width:20%;	
+}
+
+#edit-amor-img1 img, #edit-amor-img2 img, #edit-amor-img3 img, #edit-amor-img4 img, #edit-amor-img5 img
+{
+	width:100%;
+	position:relative;
+	float:left;
+}
+
+	/*Suburban*/
+#edit-images7
+{
+	position:relative;
+	float:left;
+	width:100%;
+}
+
+#edit-images-title-suburban
+{
+	position: relative;
+    text-align: center;
+    margin: 0;
+    padding:0;
+    border-bottom: 1px solid #b22e92;
+	width:100%;
+}
+
+#edit-images-title-suburban:hover
+{
+	background-color: #b22e92;
+}
+
+#edit-images-title-suburban h2
+{
+	margin: 0;
+	padding: 15px 0;
+}
+
+#edit-images-title-suburban h2:hover
+{
+	color:white;
+	cursor:pointer;
+}
+
+#edit-images-suburban
+{
+	position:relative;
+	float:left;
+	width:100%;
+	border-bottom: 1px solid #b22e92;
+	background-color: black;
+}
+
+#edit-suburban-img1, #edit-suburban-img2, #edit-suburban-img3, #edit-suburban-img4, #edit-suburban-img5
+{
+	position:relative;
+	float:left;
+	width:20%;	
+}
+
+#edit-suburban-img1 img, #edit-suburban-img2 img, #edit-suburban-img3 img, #edit-suburban-img4 img, #edit-suburban-img5 img
+{
+	width:100%;
+	position:relative;
+	float:left;
+}
+
+	/*Blues*/
+#edit-images8
+{
+	position:relative;
+	float:left;
+	width:100%;
+}
+
+#edit-images-title-blues
+{
+	position: relative;
+    text-align: center;
+    margin: 0;
+    padding:0;
+    border-bottom: 1px solid #b22e92;
+	width:100%;
+}
+
+#edit-images-title-blues:hover
+{
+	background-color: #b22e92;
+}
+
+#edit-images-title-blues h2
+{
+	margin: 0;
+	padding: 15px 0;
+}
+
+#edit-images-title-blues h2:hover
+{
+	color:white;
+	cursor:pointer;
+}
+
+#edit-images-blues
+{
+	position:relative;
+	float:left;
+	width:100%;
+	border-bottom: 1px solid #b22e92;
+	background-color: black;
+}
+
+#edit-blues-img1, #edit-blues-img2, #edit-blues-img3, #edit-blues-img4, #edit-blues-img5, #edit-blues-img6, #edit-blues-imgwhite
+{
+	position:relative;
+	float:left;
+	width:25%;	
+}
+
+#edit-blues-img1 img, #edit-blues-img2 img, #edit-blues-img3 img, #edit-blues-img4 img, #edit-blues-img5 img, #edit-blues-img6 img,
+#edit-blues-imgwhite img
+{
+	width:100%;
+	position:relative;
+	float:left;
+}
+
+	/*80s*/
+#edit-images9
+{
+	position:relative;
+	float:left;
+	width:100%;
+}
+
+#edit-images-title-80
+{
+	position: relative;
+    text-align: center;
+    margin: 0;
+    padding:0;
+    border-bottom: 1px solid #b22e92;
+	width:100%;
+}
+
+#edit-images-title-80:hover
+{
+	background-color: #b22e92;
+}
+
+#edit-images-title-80 h2
+{
+	margin: 0;
+	padding: 15px 0;
+}
+
+#edit-images-title-80 h2:hover
+{
+	color:white;
+	cursor:pointer;
+}
+
+#edit-images-80
+{
+	position:relative;
+	float:left;
+	width:100%;
+	border-bottom: 1px solid #b22e92;
+	background-color: black;
+}
+
+#edit-80-img1, #edit-80-img2, #edit-80-img3, #edit-80-img4, #edit-80-img5, #edit-80-img6, #edit-80-imgwhite
+{
+	position:relative;
+	float:left;
+	width:25%;	
+}
+
+
+#edit-80-img1 img, #edit-80-img2 img, #edit-80-img3 img, #edit-80-img4 img, #edit-80-img5 img, #edit-80-img6 img,
+#edit-80-imgwhite img
+{
+	width:100%;
+	position:relative;
+	float:left;
+}
+
+
+/*SERVIÃ‡OS*/
+#services_div
+{
+	width: 100%;
+	position: relative;
+	float:left;
+	padding-bottom: 80px;
+	background:#000;
+}
+
+#services-title
+{
+	text-align: center;
+    position: relative;
+}
+
+#services-title h1
+{
+	padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+#services-pt, #services-en
+{
+	position:relative;
+	float:left;
+	width:77.777%;
+	padding-left:11.111%;
+	padding-right:11.111%;	
+}
+
+#services-pt-1, #services-pt-2, #services-pt-3, #services-pt-4, #services-pt-5, #services-pt-6, #services-pt-7, #services-en-1, #services-en-2, #services-en-3, #services-en-4, #services-en-5, #services-en-6, #services-en-7
+{
+	position: relative;
+    float: left;
+    width: 14.285%;
+    text-align: center;
+    font-size: 9px;
+}
+
+/*CONTACTOS*/
+#contacts_div
+{
+	width: 100%;
+	position: relative;
+	float:left;
+	background: white;
+	padding-bottom: 100px;
+}
+
+#contacts-title
+{
+	text-align: center;
+    position: relative;
+	width:100%;
+}
+
+#contacts-info
+{
+		
+}
+
+#contacts-title h1
+{
+	padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+#contacts-map
+{
+	position:relative;
+	float:left;
+	width: 25%;
+    padding-left: 20%;
+    padding-right: 4.9%;
+	border-right:1px solid #b22e92;
+}
+
+#contacts-map img
+{
+	width:100%;
+	border-radius:100%;	
+	
+}
+
+#contacts-map img:hover
+{
+	cursor:pointer;
+	opacity:0.75;
+	
+}
+
+#contacts-details
+{
+	position:relative;
+	float:left;
+	width: 24%;
+    padding-right: 20%;
+    padding-left: 5%;
+	padding-top:1%;
+}
+	
+
+#contacts-details h2
+{
+	font-size:16px;
+	margin-bottom:0;
+	padding-bottom:0;	
+}
+
+#contacts-details p
+{
+	color:black;
+	margin-top:2px;	
+}
+
+#contacts-social
+{
+	padding-top: 5%;
+    width: 30%;
+
+}
+
+#contacts-facebook
+{
+	width:45%;
+	position:relative;
+	float:left;
+	padding-right:5%;
+}
+
+#contacts-instagram
+{
+	width:45%;
+	position:relative;
+	float:left;
+	padding-right:5%;
+}
+
+#contacts-instagram img, #contacts-facebook img
+{
+	width:100%;
+}
+
+
+#contacts-facebook:hover, #contacts-instagram:hover
+{
+	opacity:0.75;
+	cursor:pointer;
+}
+
+/*COPYRIGHTS*/
+
+#copyrights_metrostudio
+{
+    position: relative;
+    float: left;
+    width: 100%;
+    background: black;
+}
+
+#copyrights_metrostudio h2
+{
+    font-size: 16px;
+    padding: 8px;
+    color: white;
+    text-align: center;
+    font-weight: 100;
+}
+/*
+@media only screen and (max-width: 800px) 
+{
+
+html
+{
+	background-size: 105%;	
+}
+
+#menu_responsive
+{
+	display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 101;
+    padding: 2%;
+	width: 5%;
+	background: #000000;
+}
+
+#menu_responsive img
+{
+	width:100%;
+}
+
+#header_div
+{
+	display:none;
+}
+
+#header-menu
+{
+	display:none;	
+}
+
+#galeria-img1, #galeria-img2, #galeria-img3, #galeria-img4, #galeria-img5, #galeria-img6, #galeria-img7, #galeria-img8, #galeria-img9, #galeria-img10, #galeria-img11, #galeria-img12
+{
+	width: 50%;
+	float: left;
+	position: relative;
+}
+
+#team_div
+{
+	width:80%;
+	padding-left:10%;
+	padding-right:10%;
+}
+	
+
+#team-person1 img, #team-person2 img, #team-person3 img, #team-person4 img, #team-person5 img, #team-person6 img, #team-person7 img, #team-person8 img
+{
+	width: 20%;
+    margin-left:40%;
+	margin-right:40%;
+}
+
+#team-person1 h2, #team-person2 h2, #team-person3 h2, #team-person4 h2, #team-person5 h2, #team-person6 h2, #team-person7 h2, #team-person8 h2
+{
+	width:100%;
+	text-align:center;
+	margin-top:20px;
+}
+
+#team-person1 p, #team-person2 p, #team-person3 p, #team-person4 p, #team-person5 p, #team-person6 p, #team-person7 p, #team-person8 p
+{
+	width:100%;
+	text-align:center;
+}
+
+#edit-together-img1, #edit-together-img2, #edit-together-img3, #edit-together-img4, #edit-together-img5, #edit-together-img6, #edit-together-img7, #edit-together-img8
+{
+	width:50%;
+}
+
+#edit-vogue-img1, #edit-vogue-img2, #edit-vogue-img3, #edit-vogue-img4, #edit-vogue-img5, #edit-vogue-img6, #edit-vogue-img7, #edit-vogue-img8, #edit-vogue-img9, #edit-vogue-img10
+{
+	width:50%;	
+}
+	
+#edit-mlc-img1, #edit-mlc-img2, #edit-mlc-img3, #edit-mlc-img4
+{
+	width:50%;	
+}
+
+#edit-miami-img1, #edit-miami-img2, #edit-miami-img3, #edit-miami-img4, #edit-miami-img5, #edit-miami-img6, #edit-miami-img7, #edit-miami-img8, #edit-miami-img9, #edit-miami-img10
+{
+	width:50%;	
+}
+
+#edit-white-img1, #edit-white-img2, #edit-white-img3, #edit-white-img4, #edit-white-img5, #edit-white-img6, #edit-white-img7, #edit-white-img8, #edit-white-img9, #edit-white-img10, #edit-white-img11
+{
+	width:50%;	
+}
+
+#edit-amor-img1, #edit-amor-img2, #edit-amor-img3, #edit-amor-img4, #edit-amor-img5
+{
+	width:50%;	
+}
+
+#edit-suburban-img1, #edit-suburban-img2, #edit-suburban-img3, #edit-suburban-img4, #edit-suburban-img5
+{
+	width:50%;	
+}
+
+#edit-blues-img1, #edit-blues-img2, #edit-blues-img3, #edit-blues-img4, #edit-blues-img5, #edit-blues-img6, #edit-blues-imgwhite
+{
+	width:50%;	
+}
+
+#edit-80-img1, #edit-80-img2, #edit-80-img3, #edit-80-img4, #edit-80-img5, #edit-80-img6, #edit-80-imgwhite
+{
+	width:50%;	
+}
+
+#services-pt, #services-en 
+{
+    width: 100%;
+    padding-left: 0; 
+    padding-right: 0; 
+}
+
+#services-pt-1, #services-pt-2, #services-pt-3, #services-pt-4, #services-pt-5, #services-pt-6, #services-pt-7, #services-en-1, #services-en-2, #services-en-3, #services-en-4, #services-en-5, #services-en-6, #services-en-7 
+{
+    font-size: 5px;
+}
+
+#services-pt-7 p, #services-en-7 p
+{
+	margin-top:30px;
+}
+
+#contacts-map 
+{  
+    width: 60%;
+    padding-left: 20%;
+    padding-right: 20%;
+    border-right: 0px solid #b22e92;
+}
+
+#contacts-details 
+{
+    width: 80%;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 5%;
+    text-align: center;
+}
+
+#contacts-social 
+{
+    padding-top: 5%;
+    width: 30%;
+    padding-left: 36%;
+    padding-right: 34%;
+}
+
+}
+*/
+@media only screen and (max-width: 1000px) 
+ 
+{
+
+html
+{
+	background-size: 105%;	
+}
+
+#menu_responsive
+{
+	display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 101;
+    padding: 2%;
+    width: 5%;
+    background: #000;
+}
+
+#menu_responsive img
+{
+	width:100%;
+}
+
+#header_div
+{
+	display:none;
+}
+
+#header-menu
+{
+	display:none;	
+}
+
+#galeria-img1, #galeria-img2, #galeria-img3, #galeria-img4, #galeria-img5, #galeria-img6, #galeria-img7, #galeria-img8, #galeria-img9, #galeria-img10, #galeria-img11, #galeria-img12
+{
+	width: 50%;
+	float: left;
+	position: relative;
+}
+
+#team_div
+{
+	width:80%;
+	padding-left:10%;
+	padding-right:10%;
+}
+	
+
+#team-person1 img, #team-person2 img, #team-person3 img, #team-person4 img, #team-person5 img, #team-person6 img, #team-person7 img, #team-person8 img
+{
+	width: 20%;
+    margin-left:40%;
+	margin-right:40%;
+}
+
+#team-person1 h2, #team-person2 h2, #team-person3 h2, #team-person4 h2, #team-person5 h2, #team-person6 h2, #team-person7 h2, #team-person8 h2
+{
+	width:100%;
+	text-align:center;
+	margin-top:20px;
+}
+
+#team-person1 p, #team-person2 p, #team-person3 p, #team-person4 p, #team-person5 p, #team-person6 p, #team-person7 p, #team-person8 p
+{
+	width:100%;
+	text-align:center;
+}
+
+#edit-together-img1, #edit-together-img2, #edit-together-img3, #edit-together-img4, #edit-together-img5, #edit-together-img6, #edit-together-img7, #edit-together-img8
+{
+	width:50%;
+}
+
+#edit-vogue-img1, #edit-vogue-img2, #edit-vogue-img3, #edit-vogue-img4, #edit-vogue-img5, #edit-vogue-img6, #edit-vogue-img7, #edit-vogue-img8, #edit-vogue-img9, #edit-vogue-img10
+{
+	width:50%;	
+}
+	
+#edit-mlc-img1, #edit-mlc-img2, #edit-mlc-img3, #edit-mlc-img4
+{
+	width:50%;	
+}
+
+#edit-miami-img1, #edit-miami-img2, #edit-miami-img3, #edit-miami-img4, #edit-miami-img5, #edit-miami-img6, #edit-miami-img7, #edit-miami-img8, #edit-miami-img9, #edit-miami-img10
+{
+	width:50%;	
+}
+
+#edit-white-img1, #edit-white-img2, #edit-white-img3, #edit-white-img4, #edit-white-img5, #edit-white-img6, #edit-white-img7, #edit-white-img8, #edit-white-img9, #edit-white-img10, #edit-white-img11
+{
+	width:50%;	
+}
+
+#edit-amor-img1, #edit-amor-img2, #edit-amor-img3, #edit-amor-img4, #edit-amor-img5
+{
+	width:50%;	
+}
+
+#edit-suburban-img1, #edit-suburban-img2, #edit-suburban-img3, #edit-suburban-img4, #edit-suburban-img5
+{
+	width:50%;	
+}
+
+#edit-blues-img1, #edit-blues-img2, #edit-blues-img3, #edit-blues-img4, #edit-blues-img5, #edit-blues-img6, #edit-blues-imgwhite
+{
+	width:50%;	
+}
+
+#edit-80-img1, #edit-80-img2, #edit-80-img3, #edit-80-img4, #edit-80-img5, #edit-80-img6, #edit-80-imgwhite
+{
+	width:50%;	
+}
+
+#services-pt, #services-en 
+{
+    width: 100%;
+    padding-left: 0; 
+    padding-right: 0; 
+}
+
+#services-pt-1, #services-pt-2, #services-pt-3, #services-pt-4, #services-pt-5, #services-pt-6, #services-pt-7, #services-en-1, #services-en-2, #services-en-3, #services-en-4, #services-en-5, #services-en-6, #services-en-7 
+{
+        font-size: 16px;
+    width: 100%;
+}
+
+#services-pt-7 p, #services-en-7 p
+{
+	margin-top:30px;
+}
+
+#contacts-map 
+{  
+    width: 60%;
+    padding-left: 20%;
+    padding-right: 20%;
+    border-right: 0px solid #b22e92;
+}
+
+#contacts-details 
+{
+    width: 80%;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 5%;
+    text-align: center;
+}
+
+#contacts-social 
+{
+    padding-top: 5%;
+    width: 30%;
+    padding-left: 36%;
+    padding-right: 34%;
+}
+#logo_div {    
+    width: 60%;
+    padding: 0 20%;
+    padding-top: 42vh;
+    padding-bottom: 58vh;
+    height: 0px;
+}
+}
